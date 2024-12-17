@@ -44,7 +44,6 @@ public class User {
         return BCrypt.checkpw(password, this.password);
     }
 
-
     private String hashPassword(String password) {
         return BCrypt.hashpw(password, BCrypt.gensalt()); //retorna la contraseña hasheada como string
     }
