@@ -5,11 +5,8 @@ import java.util.Date;
 public class Task {
 
     private String name;
-
     private String id;
-
     private Date date;
-
     private int priority;
 
     public Task(String name, String id, Date date, int priority) {
